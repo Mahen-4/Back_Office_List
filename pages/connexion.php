@@ -32,7 +32,7 @@ if(isset($_POST['con']))
 <head>
 	<meta charset="utf-8">
 	<title>Connexion</title>
-	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<link rel="shortcut icon" type="x-icon" href="./images/icon.png">
 	<style type="text/css">
 *{
 	margin: 0px;

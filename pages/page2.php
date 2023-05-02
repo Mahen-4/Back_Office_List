@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="shortcut icon" type="x-icon" href="../images/icon.png">
 	<title>Liste des problèmes</title>
 </head>
 <body>	
@@ -12,7 +12,7 @@
 	<a href="historique.php" id="menu1">Historique des problèmes</a>
 	<a href="page1.php" id="menu2">Signaler un problème</a>
 	<h1 id="titre">LISTE DES PROBLÈMES</h1>
-	<img src="icon.png" alt="icon" id="icon">
+	<img src="../images/icon.png" alt="icon" id="icon">
 	<?php 
 
 	$bdd = new PDO('mysql:host=127.0.0.1;dbname=problem_signal;charset=utf8','root','');
@@ -77,7 +77,7 @@
 		<td><?php echo $resultat["date_envoie"]; ?></td>
 		<td><?php if($resultat["etat"] == "Résolu"){ ?> <h3 id="etatR"> <?php echo $resultat["etat"];?></h3><?php }elseif($resultat["etat"] == "En attente"){?>
 		<h3 id="etatA"> <?php echo $resultat["etat"];?></h3> <?php }else{?> <h3 id="etatN"> <?php echo $resultat["etat"];?> </h3> <?php }; ?></td>
-		<td><a href="view.php?view=<?php echo $resultat["id"]; ?>" class="btn-view"><img src="eye.png" alt="" title="Voir plus"></a> </td>
+		<td><a href="view.php?view=<?php echo $resultat["id"]; ?>" class="btn-view"><img src="../images/eye.png" alt="" title="Voir plus"></a> </td>
 		<br />
 	</tr>
 	<?php		

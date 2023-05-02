@@ -38,8 +38,8 @@ if(isset($_POST['envoyer'])){
 <head>
 	<meta charset="utf-8">
 	<title>Signalisation de problème</title>
-	<link rel="stylesheet" type="text/css" href="styletest.css">
-	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="../styles/styletest.css">
+	<link rel="shortcut icon" type="x-icon" href="../images/icon.png">
 </head>
 <body>
 	<div id="fontW"></div>

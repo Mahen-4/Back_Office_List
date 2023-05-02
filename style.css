@@ -1,0 +1,300 @@
+table {
+	position: absolute;
+	top: 20%;
+	left: 21%;
+	right: 15%;
+	border-collapse: collapse;
+	box-shadow: 0 5px 10px #e1e5ee;
+	background-color: white;
+	text-align: left;
+	overflow: hidden;
+}
+thead{
+	box-shadow: 0 5px 10px #e1e5ee;
+}
+th{
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 0.9rem;
+	font-weight: 900;
+	color: #05AFF2;
+}
+td{
+	padding: 0.2rem 1.5rem;
+}
+tr:nth-child(even){
+	background-color: #f4f6fb;
+}
+#bar_coter{
+	position: absolute;
+	top:  0px;
+	background-color: white;
+	width: 15%;
+	height: 20%;
+	box-shadow: 0 5px 10px #e1e5ee;
+
+}
+
+#titre{
+	color: #3ECF96;
+	font-size: 45px;
+	z-index: 2;
+	position: absolute;
+	left: 35%;
+	top: 2%;
+}
+#menu1{
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	z-index: 2;
+	position: absolute;
+	left: 3px;
+	top: 8%;
+	transition: 0.4s;
+}
+#menu1:hover{
+	background-color: #f9fbff;
+	border-left: 5px solid #3ECF96;
+}
+#menu2{
+	color: black;
+	font-size: 19px;
+	text-decoration: none;
+	z-index: 2;
+	position: absolute;
+	left: 3px;
+	top: 15%;
+	transition: 0.4s;
+}
+#menu2:hover{
+	background-color: #f9fbff;
+	border-left: 5px solid #3ECF96;
+}
+
+
+
+#resolu{
+	outline: none;
+	display: block;
+	font-size: 16px;
+	line-height: 1;
+	padding: 16px 30px;
+	border-radius: 30px;
+	background: #3ECF96;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 68%;
+	left: 45%;
+}
+#resolu:hover,
+#resolu:focus{
+	background: #27835F;
+}
+#resolu:active{
+	background: #1A573F;
+}
+#attente{
+	outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 16px 30px;
+	border-radius: 30px;
+	background: #FFBD08;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 68%;
+	left: 53%;
+}
+#attente:hover,
+#attente:focus{
+	background: #F28705;
+}
+#attente:active{
+	background: #F25C05;
+}
+
+#non_traiter{
+	outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 16px 30px;
+	border-radius: 30px;
+	background: #FF4A48;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 68%;
+	left: 63%;
+}
+#non_traiter:hover,
+#non_traiter:focus{
+	background: #BF110C;
+}
+#non_traiter:active{
+	background: #E83642;
+}
+#text_change{
+	position: absolute;
+	top: 70%;
+	left: 18%;
+}
+#etatR{
+	color:#3ECF96 ;
+}
+#etatA{
+	color: #FFBD08;
+}
+#etatN{
+	color: #FF493C;
+}
+
+
+#rien{
+	width: 1000px;
+	height: 58px;
+	background-color: grey;
+	opacity: 0.2;
+	position: absolute;
+	top: 22%;
+	left: 20%;
+}
+#rien2{
+	width: 1035px;
+	height: 58px;
+	background-color: grey;
+	opacity: 0.2;
+	position: absolute;
+	top: 22%;
+	left: 20%;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Microsoft JhengHei UI';
+	box-sizing: border-box;
+	color: #4f546c;
+
+}
+#filtre1{
+	outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 7px 30px;
+	border-radius: 10px;
+	background: #FFBD08;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 10%;
+	right: 0.9%;
+}
+#filtre1:hover,
+#filtre1:focus{
+	background: #F28705;
+}
+#filtre1:active{
+	background: #F25C05;
+}
+#filtre2{
+	outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 7px 30px;
+	border-radius: 10px;
+	background: #FF4A48;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 5%;
+	right: 0.9%;
+}
+#filtre2:hover,
+#filtre2:focus{
+	background: #BF110C;
+}
+#filtre3{
+	outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 7px 30px;
+	border-radius: 10px;
+	background: #3ECF96;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 15%;
+	right: 2%;
+}
+#filtre3:hover,
+#filtre3:focus{
+	background: #27835F;
+}
+#filtre3:active{
+	background: #1A573F;
+}
+h2{
+	position: absolute;
+	top: 0%;
+	right: 3%;
+	padding-bottom: 110px;
+	padding-left: 100px;
+}
+
+#icon {
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	top: 0px;
+	left: 65px;
+}
+
+body{
+
+	background-color: #f9fbff;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+select{
+	position: absolute;
+    top: 20%;
+    right: 1%;
+    padding: 5px;
+    border-radius: 10px;
+}
+#valider_etage{
+	position: absolute;
+    top: 25%;
+    right: 2.5%;
+    outline: none;
+	display: block;
+	border: 0;
+	font-size: 16px;
+	line-height: 1;
+	padding: 7px 5px;
+	border-radius: 10px;
+	background: #05AFF2;
+	color: white;
+	cursor: pointer;
+}

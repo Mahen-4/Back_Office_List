@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Microsoft JhengHei UI';
+
+}
+body{
+	background: #f9fbff;
+	height: 100vh;
+	overflow: hidden;
+}
+table{
+	position: absolute;
+	top: 17%;
+	left: 33%;
+}
+td{
+	padding: 10px;
+}
+input{
+	border-radius: 3px;
+	width:190px;
+	height: 30px;
+	outline: none;
+	border-bottom: 2px solid #94C3D8;
+
+
+}
+input:hover{
+	border-bottom: 3px solid #3ECF96;
+	transition: 0.2s linear;
+}
+
+#description{
+	position: absolute;
+	top: 2.5%;
+	left: 115%;
+	height: 300px;
+	width: 200px;
+	font-size: 15px;
+	border: 1px solid #94C3D8;
+	border-radius: 10px;
+	outline: none;
+	padding: 5px;
+	border-bottom: 2px solid #94C3D8;
+}
+#description:focus{
+	border-bottom: 5px solid #3ECF96;
+	transition: 0.2s linear;
+}
+#description:hover{
+	border-bottom: 3px solid #3ECF96;
+	transition: 0.2s linear;
+
+}
+#fontW{
+	height: 500px;
+	width: 600px;
+	background-color: white;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	border: 0;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px #e1e5ee;
+}
+
+#btnE{
+	outline: none;
+	display: block;
+	font-size: 20px;
+	line-height: 1;
+	border-radius: 30px;
+	background: linear-gradient(120deg,#3ECF96,#94C3D8);
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 95%;
+	left: 45%;
+	height: 50px;
+	width: 300px;
+}
+#btnE:hover,
+#btnE:focus{
+	background: linear-gradient(120deg,#94C3D8,#3ECF96);
+}
+#btnE:active{
+	border: 1px solid black;
+	color: black;
+}
+
+h1{
+	color: #3ECF96;
+	font-size: 45px;
+	z-index: 2;
+	position: absolute;
+	left: 35%;
+	top: 1%;
+}
+
+h2{
+	position: absolute;
+	top: 85%;
+	left: 30%;
+	color: black;
+
+}
+#conex{
+	outline: none;
+	display: block;
+	border: 2px solid black;
+	font-size: 16px;
+	line-height: 1;
+	padding: 16px 30px;
+	border-radius: 30px;
+	background: linear-gradient(120deg,#94C3D8,#3ECF96);
+	color: black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	position: absolute;
+	top: 92%;
+	left: 85%;
+}
+#conex:hover,
+#conex:focus{
+	background: linear-gradient(120deg,#3ECF96,#94C3D8);
+}
+#conex:active{
+	background: #F2D264;
+}
+h4{
+	position:absolute;
+	margin-top:-50px;
+	margin-left:-50px;
+}

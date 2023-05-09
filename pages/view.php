@@ -31,8 +31,8 @@ if(isset($_GET['view'])){
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../images/style2.css">
-	<link rel="shortcut icon" type="x-icon" href="../styles/icon.png">
+	<link rel="stylesheet" type="text/css" href="../styles/style2.css">
+	<link rel="shortcut icon" type="x-icon" href="../images/icon.png">
 	<meta charset="utf-8">
 	<title></title>
 </head>
